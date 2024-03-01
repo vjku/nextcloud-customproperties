@@ -17,6 +17,7 @@ class Property extends Entity
     /** @var int */
     public $valuetype;
 
+
     public function __construct()
     {
         $this->addType('id', 'int');
